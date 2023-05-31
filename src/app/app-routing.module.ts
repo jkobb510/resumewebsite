@@ -4,13 +4,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HeaderComponent } from './header/header.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/header', pathMatch: 'full' },
   { path: 'header', component: HeaderComponent },
   { path: 'skills', component: SkillsComponent },
-  //{ path: 'experience', component: ExperienceComponent },
- // { path: 'education', component: EducationComponent }
+  { path: 'experience', component: ExperienceComponent },
+  { path: 'education', component: EducationComponent }
 ];
 @NgModule({
   declarations: [],

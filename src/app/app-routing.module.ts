@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HeaderComponent } from './header/header.component';
-import { SkillsComponent } from './skills/skills.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
+import { HeaderComponent } from './header/app-header.component';
+import { SkillsComponent } from './skills/app-skills.component';
+import { ExperienceComponent } from './experience/app-experience.component';
+import { EducationComponent } from './education/app-education.component';
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },

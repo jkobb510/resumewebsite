@@ -5,7 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/app-header.component';
 import { RouterModule } from '@angular/router';
-
+import {Routes} from '@angular/router'
+const appRoutes: Routes = [
+  { path: 'header', component: HeaderComponent }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,7 +16,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, RouterModule
+    AppRoutingModule, RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

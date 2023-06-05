@@ -1,6 +1,6 @@
 ## Resume Website
+<img width="1342" alt="Screen Shot 2023-06-04 at 10 06 21 PM" src="https://github.com/jkobb510/resumewebsite/assets/41555063/7d045632-f5a6-4484-818a-21de80085cfc">
 
-<img width="1342" alt="Screen Shot 2023-06-04 at 10 06 21 PM" src="https://github.com/jkobb510/resumewebsite/assets/41555063/ac921c98-9dc1-4888-911b-f5d7b24180dc">
 
 
 ## Documentation

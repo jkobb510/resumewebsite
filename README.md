@@ -1,3 +1,6 @@
+<img width="1342" alt="Screen Shot 2023-06-04 at 10 06 21 PM" src="https://github.com/jkobb510/resumewebsite/assets/41555063/ac921c98-9dc1-4888-911b-f5d7b24180dc">
+
+
 <h1 align="center">Angular - The modern web developer's platform</h1>
 
 <p align="center">

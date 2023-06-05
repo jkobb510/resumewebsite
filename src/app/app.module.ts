@@ -1,24 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/app-header.component';
 import { RouterModule } from '@angular/router';
-import {Routes} from '@angular/router'
-const appRoutes: Routes = [
-  { path: 'header', component: HeaderComponent }
-];
+import { ReactiveFormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { ContentComponent } from './content/content.component';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent
-  ],
   imports: [
     BrowserModule,
-    AppRoutingModule, RouterModule.forRoot(appRoutes)
+    ReactiveFormsModule,
+    RouterModule.forRoot([{ path: '', component: ContentComponent }]),
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, TopBarComponent, ContentComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/

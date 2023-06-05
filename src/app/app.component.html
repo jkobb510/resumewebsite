@@ -1,11 +1,11 @@
-<main id="content">        
-  <nav>
-    <a routerLink="/header">Header</a>
-    <a routerLink="/skills">Skill</a>
-    <a routerLink="/experience">Experience</a>
-    <a routerLink="/education">Education</a>
-  </nav>      
-    <router-outlet></router-outlet>
-  <footer></footer>
-  <router-outlet name="popup"></router-outlet>
-</main>
+<app-top-bar></app-top-bar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

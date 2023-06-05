@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-content',
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.css'],
 })
-export class AppComponent {
-}
-
+export class ContentComponent {}
 
 /*
 Copyright Google LLC. All Rights Reserved.

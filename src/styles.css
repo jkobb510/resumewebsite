@@ -43,8 +43,11 @@ p {
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #ffffff;
   text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+
 }
 
 a:hover {
@@ -120,21 +123,6 @@ app-top-bar {
 app-top-bar h1 {
   color: white;
   margin: 0;
-}
-
-/* Checkout Cart, Shipping Prices */
-
-.cart-item, .shipping-item {
-  width: 100%;
-  min-width: 400px;
-  max-width: 450px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 16px 32px;
-  margin-bottom: 8px;
-  border-radius: 2px;
-  background-color: #EEEEEE;
 }
 
 
